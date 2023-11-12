@@ -1,0 +1,60 @@
+.headTop {
+  display: flex;
+  gap: var(--spacing-lg);
+  margin: var(--spacing-xsm) 0;
+}
+
+.headTop .icon {
+  width: 80px;
+  border-radius: var(--circle-radius);
+  background-color: var(--primary-color);
+  height: 80px;
+  object-fit: contain;
+}
+
+.headTop .headText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: calc(var(--spacing-md) * 1.5);
+}
+
+.headText h3 {
+  font-size: calc(var(--h3-size) * 0.5);
+  font-weight: 500;
+}
+
+.headText h4 {
+  font-weight: normal;
+  font-size: calc(var(--h4-size) * 0.5);
+}
+
+.subHeading {
+  margin: var(--spacing-md) 0 0 0;
+  font-size: calc(var(--h4-size) * 0.6);
+  line-height: calc(var(--spacing-md) * 1.3);
+}
+
+.skills {
+  display: flex;
+  gap: var(--spacing-lg);
+}
+
+.skills span {
+  font-weight: bold;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills ul li {
+  margin: 0 var(--spacing-md);
+}
+
+@media only screen and (min-width: 768px) {
+  .headTop .headText {
+    line-height: calc(var(--spacing-sm) * 1.5);
+  }
+}
