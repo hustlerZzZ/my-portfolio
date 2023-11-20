@@ -1,6 +1,6 @@
 .nav {
   display: none;
-  position: sticky;
+  position: fixed;
   flex-direction: column;
   justify-content: center;
   gap: var(--spacing-md);
