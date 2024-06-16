@@ -42,7 +42,7 @@ function Footer() {
         </ul>
       </div>
       <p className={styles.copyright}>
-        &copy; 2023 Prince Pal. All rights reserved.
+        &copy; 2024 Prince Pal. All rights reserved.
       </p>
     </div>
   );
