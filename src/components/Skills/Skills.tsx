@@ -13,11 +13,13 @@ function Skills() {
         "Sass",
         "CSS",
         "JavaScript",
+          "TypeScript",
         "Tailwind CSS",
         "Bootstrap",
         "MUI",
         "ReactJs",
         "Redux",
+          "Recoil",
         "NextJs",
       ],
     },
@@ -30,11 +32,13 @@ function Skills() {
         "MySQL",
         "Mongoose",
         "Supabase",
+          "Postgres",
+          "Prisma"
       ],
     },
     {
       name: "others",
-      stack: ["Git", "Github", "Netlify", "Postman"],
+      stack: ["Git", "Github", "Netlify", "Postman", "Linux", "Aws"],
     },
   ];
 
