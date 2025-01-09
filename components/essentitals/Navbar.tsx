@@ -24,7 +24,6 @@ export const Navbar = () => {
               <Link href="/blogs">Blogs</Link>
               <Link href="/contact-me">Contact Me</Link>
             </nav>
-
             <div>
               <ModeToggle />
             </div>

@@ -1,8 +1,8 @@
 import {
   RxGithubLogo,
-  RxInstagramLogo,
-  RxLinkedinLogo,
   RxTwitterLogo,
+  RxLinkedinLogo,
+  RxInstagramLogo,
 } from "react-icons/rx";
 
 export default function Home() {
@@ -37,16 +37,16 @@ export default function Home() {
         <div className="hidden md:flex flex-col items-center lg:items-start space-y-4">
           <p className="font-bold text-2xl">Follow Me</p>
           <div className="flex space-x-8">
-            <a href="#">
+            <a href="https://github.com/hustlerZzZ">
               <RxGithubLogo className="text-2xl" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/princepal0/">
               <RxLinkedinLogo className="text-2xl" />
             </a>
-            <a href="#">
+            <a href="https://x.com/iamhustlerzzz">
               <RxTwitterLogo className="text-2xl" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/iamhustler.z/">
               <RxInstagramLogo className="text-2xl" />
             </a>
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
 
         <div className="flex items-center justify-center lg:justify-start">
           <a
-            href=""
+            href="/cv.pdf"
             download
             className="text-xl md:text-3xl md:font-extrabold px-2 py-2 md:px-8 md:py-4 bg-orange-600 text-white dark:text-black dark:bg-white"
           >
@@ -62,7 +62,9 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div></div>
+      <div className="flex-1 flex justify-center items-center">
+        <div className="relative h-2/3 w-2/3"></div>
+      </div>
     </main>
   );
 }

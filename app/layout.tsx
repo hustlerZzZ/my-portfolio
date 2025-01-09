@@ -1,9 +1,9 @@
 import "./globals.css";
 import React from "react";
-import { Josefin_Sans } from "next/font/google";
 import type { Metadata } from "next";
-import { ThemeProvider } from "@/components/theme-provider";
+import { Josefin_Sans } from "next/font/google";
 import { Navbar } from "@/components/essentitals/Navbar";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const josefin = Josefin_Sans({
   subsets: ["latin"],
