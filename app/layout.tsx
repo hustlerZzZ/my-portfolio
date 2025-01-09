@@ -1,9 +1,9 @@
-import React from "react";
 import "./globals.css";
-
+import React from "react";
 import { Josefin_Sans } from "next/font/google";
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Navbar } from "@/components/essentitals/Navbar";
 
 const josefin = Josefin_Sans({
   subsets: ["latin"],
@@ -23,8 +23,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${josefin.className} antialiased h-screen`}>
+      <body
+        className={`${josefin.className} antialiased grid grid-rows-[auto_1fr] h-screen`}
+      >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Navbar />
           {children}
         </ThemeProvider>
       </body>
