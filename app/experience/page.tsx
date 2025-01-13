@@ -1,5 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ExperienceList from "@/components/custom/ExperienceList";
+import EducationList from "@/components/custom/EducationList";
 
 export default function Page() {
   return (
@@ -12,7 +13,9 @@ export default function Page() {
         <TabsContent value="experience">
           <ExperienceList />
         </TabsContent>
-        <TabsContent value="education"></TabsContent>
+        <TabsContent value="education">
+          <EducationList />
+        </TabsContent>
       </Tabs>
     </main>
   );

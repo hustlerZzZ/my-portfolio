@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export default function ExperienceCard({ item }: { item: experienceType }) {
+export default function EducationCard({ item }: { item: experienceType }) {
   return (
     <Card className="my-8">
       <CardHeader>
