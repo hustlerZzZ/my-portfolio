@@ -22,16 +22,19 @@ export default function ExperienceCard({ item }: { item: experienceType }) {
           </div>
         </CardTitle>
         <CardDescription className="mt-2">
-          {item.description.map((item) => (
-            <li>{item}</li>
+          {item.description.map((item, index) => (
+            <li key={index}>{item}</li>
           ))}
         </CardDescription>
       </CardHeader>
       <CardContent className="flex space-x-4 items-center">
         <div>Skills</div>
         <div className="flex flex-wrap lg:items-center lg:justify-between space-x-2">
-          {item.skills.map((item) => (
-            <p className="border-2 border-orange-600 dark:border-gray-100 px-4 py-1 mt-2 rounded-full text-xs md:text-sm ">
+          {item.skills.map((item, index) => (
+            <p
+              key={index}
+              className="border-2 border-orange-600 dark:border-gray-100 px-4 py-1 mt-2 rounded-full text-xs md:text-sm "
+            >
               {item}
             </p>
           ))}
