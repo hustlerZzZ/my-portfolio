@@ -19,7 +19,7 @@ export const educationData: educationType[] = [
   {
     schoolName: "Delhi Skills & Entrepreneurship University",
     degreeName: "Diploma",
-    specialization: "Computer Sciences",
+    specialization: "Computer Science",
     duration: "July 2021 - June 2024",
     location: "New Delhi, India",
     imageUrl: "",

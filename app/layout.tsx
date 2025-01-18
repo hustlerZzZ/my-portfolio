@@ -24,11 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${josefin.className} antialiased grid grid-rows-[auto_1fr] h-screen`}
+        className={`${josefin.className} relative antialiased grid grid-rows-[auto_1fr] h-screen`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
-          {children}
+          <div className="overscroll-y-auto">{children}</div>
         </ThemeProvider>
       </body>
     </html>
