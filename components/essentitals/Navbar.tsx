@@ -21,7 +21,6 @@ export const Navbar = () => {
               <Link href="/about-me">About Me</Link>
               <Link href="/experience">Experience</Link>
               <Link href="/projects">Projects</Link>
-              <Link href="/blogs">Blogs</Link>
               <Link href="/contact-me">Contact Me</Link>
             </nav>
             <div>
