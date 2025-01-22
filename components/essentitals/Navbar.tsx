@@ -34,7 +34,12 @@ export const Navbar = () => {
           </div>
         )}
         {navActive && (
-          <div className="flex items-center justify-center lg:hidden w-full text-black bg-white absolute bottom-0 -left-8">
+          <div className="lg:hidden">
+            <ModeToggle />
+          </div>
+        )}
+        {navActive && (
+          <div className="flex items-center justify-center lg:hidden w-full text-black bg-white fixed bottom-0 -left-8">
             <nav className="items-center justify-center flex p-2 space-x-4">
               <Link
                 href="/about-me"

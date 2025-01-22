@@ -6,11 +6,13 @@ import { Button } from "@/components/ui/button";
 
 export default function Page() {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto px-4 md:px-0">
       <div className="flex flex-col items-center justify-center space-y-4">
-        <h2 className="text-5xl font-bold">Want to work Together!</h2>
+        <h2 className="text-2xl md:text-5xl font-bold">
+          Want to work Together!
+        </h2>
 
-        <div className="text-xl flex items-center justify-center space-x-2">
+        <div className="text-md md:text-xl flex items-center justify-center space-x-2">
           <p className="flex items-center justify-center space-x-2">
             <IoIosMail /> <span>Email :</span>
           </p>
@@ -28,8 +30,8 @@ export default function Page() {
         action="https://formsubmit.co/3d5507fa1e90b429af4f014f15ea2445"
         method="POST"
       >
-        <div className="flex justify-center gap-8 mt-8">
-          <div className="flex flex-col space-y-4 w-96">
+        <div className="flex flex-col md:flex-row justify-center gap-8 mt-8">
+          <div className="flex flex-col space-y-4 w-full">
             <Input
               type="text"
               name="name"
@@ -49,7 +51,7 @@ export default function Page() {
               placeholder="Your Phone..."
             />
           </div>
-          <div className="w-96">
+          <div className="w-full">
             <Textarea
               name="message"
               cols={40}
